@@ -10,5 +10,4 @@ public class ZorzalesApplication {
 		SpringApplication.run(ZorzalesApplication.class, args);
 	}
 
-
 }
