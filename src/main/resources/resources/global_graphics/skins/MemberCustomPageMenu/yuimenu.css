@@ -1,0 +1,96 @@
+#MemberCustomPageMenu .yuimenu{top:-999em;left:-999em;}
+#MemberCustomPageMenu.yuimenubar{position:static;}
+
+#MemberCustomPageMenu .yuimenu .yuimenu,
+#MemberCustomPageMenu.yuimenubar .yuimenu{position:absolute;}
+
+#MemberCustomPageMenu.yuimenubar li,
+#MemberCustomPageMenu .yuimenu li{list-style-type:none;}
+
+#MemberCustomPageMenu.yuimenubar ul,
+#MemberCustomPageMenu .yuimenu ul,
+#MemberCustomPageMenu.yuimenubar li,
+#MemberCustomPageMenu .yuimenu li,
+#MemberCustomPageMenu .yuimenu h6,
+#MemberCustomPageMenu.yuimenubar h6{margin:0;padding:0;}
+
+#MemberCustomPageMenu .yuimenuitemlabel,
+#MemberCustomPageMenu .yuimenubaritemlabel{text-align:left;white-space:nowrap;}
+
+#MemberCustomPageMenu.yuimenubar ul{*zoom:1;white-space:nowrap;}
+#MemberCustomPageMenu.yuimenubar .yuimenu ul{*zoom:normal;}
+#MemberCustomPageMenu.yuimenubar>.bd>ul:after{content:".";display:block;clear:both;visibility:hidden;height:0;line-height:0;}
+#MemberCustomPageMenu .yuimenubaritem{float:left;}
+
+#MemberCustomPageMenu .yuimenubaritemlabel,
+#MemberCustomPageMenu .yuimenuitemlabel{display:block;}
+
+#MemberCustomPageMenu .yuimenuitemlabel .helptext{font-style:normal;display:block;margin:-1em 0 0 10em;}
+#MemberCustomPageMenu .yui-menu-shadow{position:absolute;visibility:hidden;z-index:-1;}
+#MemberCustomPageMenu .yui-menu-shadow-visible{top:2px;right:-3px;left:-3px;bottom:-3px;visibility:hidden;}
+#MemberCustomPageMenu .hide-scrollbars *{overflow:hidden;}
+#MemberCustomPageMenu .hide-scrollbars select{display:none;}
+
+#MemberCustomPageMenu .yuimenu.show-scrollbars,
+#MemberCustomPageMenu.yuimenubar.show-scrollbars{overflow:visible;}
+
+#MemberCustomPageMenu .yuimenu.hide-scrollbars .yui-menu-shadow,
+#MemberCustomPageMenu.yuimenubar.hide-scrollbars .yui-menu-shadow{overflow:hidden;}
+
+#MemberCustomPageMenu .yuimenu.show-scrollbars .yui-menu-shadow,
+#MemberCustomPageMenu.yuimenubar.show-scrollbars .yui-menu-shadow{overflow:auto;}
+
+/*#MemberCustomPageMenu.yuimenubar{font-size:93%;line-height:2;*line-height:1.9;border:solid 1px #808080;background:url(sprite.png) repeat-x 0 0;}
+*/#MemberCustomPageMenu.yuimenubar{text-align:left; font-size:12px;line-height:20px;border-style:solid;border-color:#BCB8AA;border-width:0 0px 0px 0px;background:#fff repeat-x 0 0;}
+
+#MemberCustomPageMenu.yuimenubarnav .yuimenubaritem{border-right:solid 1px #BCB8AA;}
+
+/*#MemberCustomPageMenu .yuimenubaritemlabel{padding:0 10px;color:#000;text-decoration:none;cursor:default;border-style:solid;border-color:#808080;border-width:1px 0;*position:relative;margin:-1px 0;}
+*/#MemberCustomPageMenu .yuimenubaritemlabel{padding:0 10px;color:#00384F;font-size:120%;text-decoration:none;cursor:default;border-style:solid;border-color:#BCB8AA;border-width:1px;*position:relative;margin:-1px 0;}
+
+#MemberCustomPageMenu.yuimenubarnav .yuimenubaritemlabel{padding-right:12px;*display:inline-block;}
+#MemberCustomPageMenu.yuimenubarnav .yuimenubaritemlabel-hassubmenu{background:url(menubaritem_submenuindicator.png) right center no-repeat;padding-right:24px;}
+
+/*#MemberCustomPageMenu .yuimenubaritem-selected{background:url(sprite.png) repeat-x 0 -1700px;}
+*/#MemberCustomPageMenu .yuimenubaritem-selected{background:#E7F0F4;}
+
+#MemberCustomPageMenu .yuimenubaritemlabel-selected{border-color:#BCB8AA;}
+#MemberCustomPageMenu.yuimenubarnav .yuimenubaritemlabel-selected{border-left-width:1px;margin-left:-1px;*left:-1px;}
+#MemberCustomPageMenu .yuimenubaritemlabel-disabled{cursor:default;color:#A6A6A6;}
+#MemberCustomPageMenu.yuimenubarnav .yuimenubaritemlabel-hassubmenu-disabled{background-image:url(menubaritem_submenuindicator_disabled.png);}
+#MemberCustomPageMenu .yuimenu{font-size:93%;line-height:1.5;*line-height:1.45;}
+
+#MemberCustomPageMenu.yuimenubar .yuimenu,
+#MemberCustomPageMenu .yuimenu .yuimenu{font-size:100%;}
+
+#MemberCustomPageMenu .yuimenu .bd{*zoom:1;_zoom:normal;line-height:20px;border:solid 0 #BCB8AA;background-color:#eee;}
+#MemberCustomPageMenu .yuimenu .yuimenu .bd{*zoom:normal;}
+#MemberCustomPageMenu .yuimenu ul{padding:0;border-width:0 0 0 0;border-color:#BCB8AA;border-style:solid;}
+#MemberCustomPageMenu .yuimenu ul.first-of-type{border-width:0;}
+#MemberCustomPageMenu .yuimenu h6{font-weight:bold;border-style:solid;border-color:#BCB8AA;border-width:0 0 0 0;color:#a4a4a4;padding:3px 10px 0 10px;}
+
+#MemberCustomPageMenu .yuimenu ul.hastitle,
+#MemberCustomPageMenu .yuimenu h6.first-of-type{border-width:0;}
+
+#MemberCustomPageMenu .yuimenu .yui-menu-body-scrolled{border-color:#BCB8AA #BCB8AA;overflow:hidden;}
+
+#MemberCustomPageMenu .yuimenu .topscrollbar,
+#MemberCustomPageMenu .yuimenu .bottomscrollbar{height:16px;border:solid 1px #BCB8AA;background:#E7F0F4 url(sprite.png) no-repeat 0 0;}
+
+#MemberCustomPageMenu .yuimenu .topscrollbar{border-bottom-width:0;background-position:center -950px;}
+#MemberCustomPageMenu .yuimenu .topscrollbar_disabled{background-position:center -975px;}
+#MemberCustomPageMenu .yuimenu .bottomscrollbar{border-top-width:0;background-position:center -850px;}
+#MemberCustomPageMenu .yuimenu .bottomscrollbar_disabled{background-position:center -875px;}
+#MemberCustomPageMenu .yuimenuitem{border-bottom:solid 1px #E7F0F4;}
+#MemberCustomPageMenu .yuimenuitemlabel{padding:4px 20px 5px 5px;text-decoration:none;cursor:hand;}
+#MemberCustomPageMenu .yuimenuitemlabel .helptext{margin-top:-1.5em;*margin-top:-1.45em;}
+#MemberCustomPageMenu .yuimenuitem-hassubmenu{background-image:url(menuitem_submenuindicator.png);background-position:right center;background-repeat:no-repeat;}
+#MemberCustomPageMenu .yuimenuitem-checked{background-image:url(menuitem_checkbox.png);background-position:left center;background-repeat:no-repeat;}
+#MemberCustomPageMenu .yui-menu-shadow-visible{background-color:#000;opacity:.12;filter:alpha(opacity=12);}
+#MemberCustomPageMenu .yuimenuitem-selected{background-color:#e1e1e1;}
+#MemberCustomPageMenu .yuimenuitem-selected .yuimenuitemlabel:hover{text-decoration:underline;}
+#MemberCustomPageMenu .yuimenuitemlabel-disabled{cursor:default;color:#A6A6A6;}
+#MemberCustomPageMenu .yuimenuitemlabel-nolink,
+#MemberCustomPageMenu .yuimenuitem-selected .yuimenuitemlabel-nolink:hover{cursor:default;text-decoration:none;}
+#MemberCustomPageMenu .yuimenuitem-hassubmenu-disabled{background-image:url(menuitem_submenuindicator_disabled.png);}
+#MemberCustomPageMenu .yuimenuitem-checked-disabled{background-image:url(menuitem_checkbox_disabled.png);}
