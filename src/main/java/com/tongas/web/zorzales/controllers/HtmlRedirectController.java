@@ -12,5 +12,10 @@ public class HtmlRedirectController {
     public RedirectView redirectToHtml(@PathVariable String path) {
         return new RedirectView("/page/" + path + ".html");
     }
-}
 
+    @RequestMapping(value = "/events/event_list.asp")
+    public RedirectView aspToHtml(@PathVariable String path) {
+        return new RedirectView("/page/OurEvents.html");
+    }
+
+}
